@@ -2,8 +2,6 @@
 
 A status line script for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that shows live usage data, git status, and conversation context at a glance.
 
-![Status Bar Example](screenshot.png)
-
 ## What it shows
 
 ```
