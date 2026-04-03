@@ -10,7 +10,7 @@ Opus 4.6 (1M) | 📁my-project | 🔀main (2 files uncommitted, synced 3m ago) |
 ```
 
 - **Model** - Current model name
-- **Directory** - Working directory name
+- **Directory** - Working directory name, updates live when you switch directories with `/cd`
 - **Git branch** - Branch name, uncommitted file count, sync status (ahead/behind/synced), last fetch time
 - **Session usage** - 5-hour window utilization % and reset time (local timezone)
 - **Weekly usage** - 7-day window utilization % and reset time (local timezone)
@@ -55,7 +55,7 @@ Claude Code pipes a JSON object to the status line command's stdin on every rend
 - `.rate_limits.five_hour.used_percentage` / `.rate_limits.five_hour.resets_at` - Session usage
 - `.rate_limits.seven_day.used_percentage` / `.rate_limits.seven_day.resets_at` - Weekly usage
 
-The script reads this input directly - no API calls, no caching, no authentication needed. Usage numbers update live on every render.
+The script reads this input directly - no API calls, no caching, no authentication needed. Everything updates live on every render, including the directory and git status when you switch folders with `/cd`.
 
 ### Why not use the API?
 
