@@ -1,6 +1,6 @@
 # Claude Code Status Bar
 
-A status line script for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that shows live usage data, git status, and conversation context at a glance.
+A status line script for the [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) that shows live usage data, git status, and conversation context at a glance. Designed for the terminal/CLI version of Claude Code.
 
 ## What it shows
 
